@@ -5,3 +5,15 @@ locale(/usr/share/i18n/locales) or localectl - Shows geographic location
 pwd - present work directory
 
 env - entire current list  (env | less) q - quit less
+
+timedatectl  #display your current zone settings 
+timedatectl list-timezones | grep -i america
+timedatectl set-timezone America/Los_Angeles
+
+Installing Apache - sudo apt update #Update your local package index
+                  - sudo apt install apache2 #Install the apache2 package
+                  - sudo ufw app list #Check the available ufw application profiles
+                  - sudo ufw allow 'Apache'
+                  - sudo ufw status
+                  - sudo systemctl status apache2  #Check with the systemd init system to make sure the service is running 
+                  
