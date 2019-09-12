@@ -16,4 +16,9 @@ Installing Apache - sudo apt update #Update your local package index
                   - sudo ufw allow 'Apache'
                   - sudo ufw status
                   - sudo systemctl status apache2  #Check with the systemd init system to make sure the service is running 
+                  - curl 127.0.0.1 #validate website is working
+                  
+                 
+
+
                   
