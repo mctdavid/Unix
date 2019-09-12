@@ -17,7 +17,7 @@ Root-level Directories
 - /usr Additional binaries
 - /var Updating files: logs, application data, cache
 
-Pseudo File Directories
+Pseudo(Virtual) File Directories - Created Dynamically
 - /proc Files representing running system processes
 - /dev Pseudo files representing devices
 - /sys Data on system and kernel resources
