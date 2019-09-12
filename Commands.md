@@ -19,6 +19,13 @@ Installing Apache - sudo apt update #Update your local package index
                   - curl 127.0.0.1 #validate website is working
                   
                  
-
+Network
+        - ip route show
+        - sudo dhclient
+        - ifconfig = ip addr
+        - route
+        - netstat -i
+        - netstat - l
+        - ss -i
 
                   
