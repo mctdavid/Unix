@@ -28,4 +28,11 @@ Network
         - netstat - l
         - ss -i
 
-                  
+Monitoring
+  - top 
+  - free -h
+  - df -ht ext4
+  - ps aux | grep sshd
+  - journalctl --since "10 minutes ago"
+  - cat syslog | grep *
+  - 
