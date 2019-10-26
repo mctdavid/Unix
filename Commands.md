@@ -20,13 +20,13 @@ Installing Apache - sudo apt update #Update your local package index
                   
                  
 Network
-        - ip route show
-        - sudo dhclient
-        - ifconfig = ip addr
-        - route
-        - netstat -i
-        - netstat - l
-        - ss -i
+  - ip route show
+  - sudo dhclient
+  - ifconfig = ip addr
+  - route
+  - netstat -i
+  - netstat - l
+  - ss -i
 
 Monitoring
   - top 
