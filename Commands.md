@@ -6,9 +6,9 @@ pwd - present work directory
 
 env - entire current list  (env | less) q - quit less
 
-timedatectl  #display your current zone settings 
-timedatectl list-timezones | grep -i america
-timedatectl set-timezone America/Los_Angeles
+- timedatectl  #display your current zone settings 
+- timedatectl list-timezones | grep -i america
+- timedatectl set-timezone America/Los_Angeles
 
 Installing Apache - sudo apt update #Update your local package index
                   - sudo apt install apache2 #Install the apache2 package
