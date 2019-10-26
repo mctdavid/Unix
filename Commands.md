@@ -35,4 +35,28 @@ Monitoring
   - ps aux | grep sshd
   - journalctl --since "10 minutes ago"
   - cat syslog | grep *
-  - 
+  - less /proc/meminfo - show mem info
+less /proc/cpuinfo - show cpu info
+q - to quit less
+
+apt update
+cd /proc
+meminfo
+cpuinfo
+top
+free -h
+df -ht ext
+ip addr
+iftop -i eth0
+ps aux |grep sshd
+journalctl --since "10 minutes ago"
+cd /var/log
+cat /var/log/syslog |grep sshd
+systemctl status apache2
+systemctl disable apache2
+systemctl enable apache2
+systemctl start apache2
+kill 1127
+killall yes
+nice -19
+renice -15 process
