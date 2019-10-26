@@ -10,13 +10,14 @@ env - entire current list  (env | less) q - quit less
 - timedatectl list-timezones | grep -i america
 - timedatectl set-timezone America/Los_Angeles
 
-Installing Apache - sudo apt update #Update your local package index
-                  - sudo apt install apache2 #Install the apache2 package
-                  - sudo ufw app list #Check the available ufw application profiles
-                  - sudo ufw allow 'Apache'
-                  - sudo ufw status
-                  - sudo systemctl status apache2  #Check with the systemd init system to make sure the service is running 
-                  - curl 127.0.0.1 #validate website is working
+Installing Apache 
+- sudo apt update #Update your local package index
+- sudo apt install apache2 #Install the apache2 package
+- sudo ufw app list #Check the available ufw application profiles
+- sudo ufw allow 'Apache'
+- sudo ufw status
+- sudo systemctl status apache2  #Check with the systemd init system to make sure the service is running 
+- curl 127.0.0.1 #validate website is working
                   
                  
 Network
