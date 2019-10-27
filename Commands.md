@@ -55,7 +55,7 @@ Monitoring
 - nice -19
 - renice -15 process
 
-#Users and Groups
+# Users and Groups
 
 less /etc/shadow
 less /etc/passwd
