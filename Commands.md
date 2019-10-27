@@ -54,3 +54,57 @@ Monitoring
 - killall yes
 - nice -19
 - renice -15 process
+
+#Users and Groups
+
+less /etc/shadow
+less /etc/passwd
+less /etc/group
+id username
+who
+w
+last |less
+
+useradd -m jane
+passwd jane
+cd /etc/skel
+
+mkdir /var/secret
+groupadd secret-group
+chown :secret-group /var/secret
+usermod -a -G secre-group jane
+chmod g+w /var/secret
+
+
+Security
+
+cd /var/secret
+
+ls
+su jane
+touch data.txt
+ls -l
+ls -dl
+chmod o+x data.txt
+
+Read r 4
+Write w 2
+Execute x 1
+Full permissions: 7
+Read/execute: 5
+Execute: 1
+
+chmod 777 data.txt
+
+ls-dl
+chmod +s /var/secret
+ls dl
+
+
+Hardening Server
+
+sudo apt update
+sudo apt upgrade
+yum update
+
+nmap -v -sT localhost
